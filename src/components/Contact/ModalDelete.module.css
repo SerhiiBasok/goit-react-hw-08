@@ -1,0 +1,43 @@
+.title {
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  color: #2c3e50;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+.wrap {
+  display: flex;
+  gap: 40px;
+  padding-top: 30px;
+}
+
+.btn {
+  display: block;
+  width: 100px;
+  height: 35px;
+  transition: background-color 0.3s ease-in-out;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: 2px solid #2c3e50;
+  background-color: transparent;
+  border-radius: 15px;
+  color: #2c3e50;
+}
+
+.btn:hover {
+  background-color: #5555;
+  color: #ffffff;
+}
